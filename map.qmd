@@ -1,8 +1,7 @@
 ---
-output: html_document
-editor_options: 
-  chunk_output_type: console
+language: custom.yml
 ---
+
 ```{r}
 #| include: false
 dialects <- sf::st_read("data/dialects.json")
