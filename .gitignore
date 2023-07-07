@@ -6,7 +6,6 @@
 *.zip
 4DEV.md
 /.quarto/*
-/docs/*
 *.~lock.*
 /.quarto/
 /audio/*
