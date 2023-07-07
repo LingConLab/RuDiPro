@@ -12,6 +12,8 @@ website:
         text: о проекте
       - href: dialects.qmd
         text: информация о говорах
+      - href: rhythm.qmd
+        text: ритмическая структура
       - href: map.qmd
         text: карта
       - href: data.qmd
