@@ -8,6 +8,4 @@
 /.quarto/*
 *.~lock.*
 /.quarto/
-/audio/*
-/images/*
 *.docx
