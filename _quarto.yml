@@ -22,7 +22,6 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
     csl: apa.csl
     toc: true
     embed-resources: true
