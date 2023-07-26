@@ -18,7 +18,7 @@ website:
         text: карта
       - href: data.qmd
         text: данные
-
+        
 format:
   html:
     theme: cosmo
