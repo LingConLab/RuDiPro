@@ -38,6 +38,6 @@ language: custom.yml
 
 ##### Для цитирования:
 
-Князев С. В., Мороз Г. А., Дьяченко С.В. Русская диалектная просодия. 2024. Электронный ресурс: https://agricolamz.github.io/russian_dialect_intonation_atlas/, дата обращения ....)
+Князев С. В., Мороз Г. А., Дьяченко С.В. Русская диалектная просодия. 2024. Электронный ресурс: https://agricolamz.github.io/russian_dialect_intonation_atlas/, (дата обращения ...)
 
 ## Ссылки на литературу

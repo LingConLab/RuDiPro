@@ -27,6 +27,6 @@ format:
     echo: false
     warning: false
     message: false
-    embed-resources: true
+    embed-resources: false
     page-layout: full
     bibliography: bibliography.bib
