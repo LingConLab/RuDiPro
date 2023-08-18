@@ -4534,12 +4534,12 @@ vertical-align: -.125em;
 <h2 class="anchored" data-anchor-id="d52">Церковное (Говор 52)</h2>
 <p>Безударный вокализм после твердых согласных – <strong>полное оканье</strong>: гласные на месте этимологических *<em>о</em> и *<em>а</em> различаются во всех безударных слогах:</p>
 <ul>
-<li><em>Разогреешь, посолишь немножко</em> (ц29),</li>
-<li><em>И вот там человек один лошадь обгоняет, топчет</em> (ц15),</li>
-<li><em>Он холодный!</em> (ц14),</li>
-<li><em>И вот работаем, а тебя заставляют – пиши!</em> (ц13),</li>
-<li><em>По две коровы кормили, а кто хорошо… </em>(ц11),</li>
-<li><em>Всех леший унёс, поразнёс… </em>(ц07).</li>
+<li><em>Разогреешь, посолишь немножко</em> (<a onclick="sound_play(&#39;https://github.com/LingConLab/RuDiPro/raw/main/audio/церк29.wav&#39;);">церк29</a>)</li>
+<li><em>И вот там человек один лошадь обгоняет, топчет</em> (<a onclick="sound_play(&#39;https://github.com/LingConLab/RuDiPro/raw/main/audio/церк15.wav&#39;);">церк15</a>)</li>
+<li><em>Он холодный!</em> (<a onclick="sound_play(&#39;https://github.com/LingConLab/RuDiPro/raw/main/audio/церк14.wav&#39;);">церк14</a>)</li>
+<li><em>И вот работаем, а тебя заставляют – пиши!</em> (<a onclick="sound_play(&#39;https://github.com/LingConLab/RuDiPro/raw/main/audio/церк13.wav&#39;);">церк13</a>)</li>
+<li><em>По две коровы кормили, а кто хорошо… </em>(<a onclick="sound_play(&#39;https://github.com/LingConLab/RuDiPro/raw/main/audio/церк15.wav&#39;);">церк15</a>)</li>
+<li><em>Всех леший унёс, поразнёс… </em> (<a onclick="sound_play(&#39;https://github.com/LingConLab/RuDiPro/raw/main/audio/церк7.wav&#39;);">церк7</a>)</li>
 </ul>
 <p>Ритмическая структура слова без противопоставления 1-го предударного слога остальным безударным слогам (см. <a href="#fig-tse">Рисунок 1</a>).</p>
 <div id="fig-tse" class="quarto-layout-panel">
@@ -4846,6 +4846,16 @@ vertical-align: -.125em;
 </figure>
 </div>
 <p>См. <a href="dialects.html#d13">Описание говора</a>.</p>
+<script>
+function sound_play(x) {
+    var audio = new Audio();
+    audio.src = x;
+    audio.play();
+  }
+function resize(elem, percent) { 
+  elem.style.fontSize = percent; 
+  }
+</script>
 
 
 

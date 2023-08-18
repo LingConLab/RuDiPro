@@ -3,10 +3,6 @@ language: custom.yml
 ---
 
 ```{r}
-#| echo: false
-#| message: false
-#| warning: false
-
 library(tidyverse)
 
 create_image_look_up <- function(img_src,

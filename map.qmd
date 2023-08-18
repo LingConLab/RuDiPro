@@ -10,9 +10,6 @@ dialects <- sf::st_read("data/dialects.json")
 
 ```{r}
 #| fig-height: 9 
-#| echo: false
-#| message: false
-#| warning: false
 
 library(tidyverse)
 library(leaflet)

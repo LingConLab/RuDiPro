@@ -2,17 +2,31 @@
 language: custom.yml
 ---
 
+```{r}
+create_play_sound_links <- function(snd_src) {
+  paste0(
+    "<a ",
+    "onclick = \"sound_play('https://github.com/LingConLab/RuDiPro/raw/main/audio/",
+    snd_src,
+    ".wav');\">",
+    snd_src,
+    "</a>"
+  )
+}
+```
+
+
 ## Церковное (Говор 52) {#d52}
 
 Безударный вокализм после твердых согласных – **полное оканье**: гласные на месте этимологических \**о* и \**а* различаются во всех безударных слогах:
 
-- *Разогреешь, посолишь немножко* (ц29),
-- *И вот там человек один лошадь обгоняет, топчет* (ц15),
-- *Он холодный!* (ц14),
-- *И вот работаем, а тебя заставляют – пиши!* (ц13),
-- *По две коровы кормили, а кто хорошо… *(ц11),
-- *Всех леший унёс, поразнёс… *(ц07).
-
+- *Разогреешь, посолишь немножко* (`r create_play_sound_links("церк29")`)
+- *И вот там человек один лошадь обгоняет, топчет* (`r create_play_sound_links("церк15")`)
+- *Он холодный!* (`r create_play_sound_links("церк14")`)
+- *И вот работаем, а тебя заставляют – пиши!* (`r create_play_sound_links("церк13")`)
+- *По две коровы кормили, а кто хорошо… *(`r create_play_sound_links("церк15")`)
+- *Всех леший унёс, поразнёс… * (`r create_play_sound_links("церк7")`)
+  
 Ритмическая структура слова без противопоставления 1-го предударного слога остальным безударным слогам (см. @fig-tse).
 
 ::: {#fig-tse layout-ncol=2}
@@ -292,3 +306,15 @@ language: custom.yml
 
 
 См. [Описание говора](dialects.html#d13).
+
+
+<script>
+function sound_play(x) {
+    var audio = new Audio();
+    audio.src = x;
+    audio.play();
+  }
+function resize(elem, percent) { 
+  elem.style.fontSize = percent; 
+  }
+</script>

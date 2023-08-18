@@ -24,6 +24,9 @@ format:
     theme: cosmo
     csl: apa.csl
     toc: true
+    echo: false
+    warning: false
+    message: false
     embed-resources: true
     page-layout: full
     bibliography: bibliography.bib
