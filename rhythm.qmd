@@ -5,7 +5,7 @@ language: custom.yml
 ```{r}
 create_play_sound_links <- function(snd_src) {
   paste0(
-  "<audio controls autoplay>
+  "<audio controls>
   <source src='https://github.com/LingConLab/RuDiPro/raw/main/audio/",
   snd_src,
   ".wav'>
